@@ -25,8 +25,8 @@
   box-shadow: var(--shadow);
 }
 
-
 /* Menu Page */
+
 .menu {
   display: flex;
   min-height: 100vh;
@@ -69,6 +69,7 @@
 }
 
 /* Details Page */
+
 .details {
   text-align: center;
 }
@@ -79,4 +80,16 @@
 .details-link {
   text-decoration: none;
   color: var(--blue);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  .menu-grid {
+    grid-template-columns: calc(100%/2) calc(100%/2);
+    width: 100%;  
+  }
+  .menu-item {
+    padding: 20px;
+  }
 }
