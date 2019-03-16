@@ -4,6 +4,7 @@ import * as routes from './constants/routes';
 
 import Landing from './components/Landing';
 import Menu from './components/Menu';
+import MenuDetails from './components/Menu/MenuDetails';
 
 
 const App = () => (
@@ -11,6 +12,7 @@ const App = () => (
     <Switch>
       <Route exact path={routes.LANDING} component={Landing}/>
       <Route path={routes.MENU} component={Menu}/>
+      <Route path={routes.DETAILS} component={MenuDetails} />
     </Switch>
   </BrowserRouter>
 );

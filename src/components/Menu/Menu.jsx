@@ -6,12 +6,12 @@ class Menu extends React.Component {
 
   state = {
     menuItems: [
-      {id: 1, name: 'Flerkin', iconClass: 'fas fa-cat' },
-      {id: 2, name: 'Celebration', iconClass: 'fas fa-glass-cheers' },
-      {id: 3, name: 'Clan', iconClass: 'fas fa-khanda' },
-      {id: 4, name: 'Ladybugs', iconClass: 'fas fa-bug' },
-      {id: 5, name: 'Certification', iconClass: 'fas fa-award' },
-      {id: 6, name: 'Settings', iconClass: 'fas fa-cog' },
+      {id: 1, name: 'flerkin', iconClass: 'fas fa-cat' },
+      {id: 2, name: 'celebration', iconClass: 'fas fa-glass-cheers' },
+      {id: 3, name: 'clan', iconClass: 'fas fa-khanda' },
+      {id: 4, name: 'ladybugs', iconClass: 'fas fa-bug' },
+      {id: 5, name: 'certification', iconClass: 'fas fa-award' },
+      {id: 6, name: 'settings', iconClass: 'fas fa-cog' },
     ]
   };
 
