@@ -70,10 +70,13 @@
 
 /* Details Page */
 .details {
-
+  text-align: center;
 }
 .details-title {
-  text-align: center;
   font-size: 50px;
   text-transform: capitalize;
+}
+.details-link {
+  text-decoration: none;
+  color: var(--blue);
 }
