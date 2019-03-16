@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #5C5C5C;
-}
-
 :root {
   --blue: #758EB7;
   --green: #A5CAD2;
   --white: #FFFFFF;
   --shadow: 0px 1px 5px 0px rgba(182, 182, 182, 0.6);
+  --font:  #838383;
+  --light-grey: rgb(190, 190, 190);
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--font);
+}
+
